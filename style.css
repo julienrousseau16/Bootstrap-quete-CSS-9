@@ -1,0 +1,21 @@
+
+.col {
+    height: 80px;
+    border: 1px solid white;
+}
+
+ #dg {
+    background-color: rgb(56, 55, 55);
+}
+
+#bl {
+    background-color: black;
+}
+
+#ye {
+    background-color: rgb(255, 217, 0);
+}
+
+#or {
+    background-color: rgb(255, 123, 0);
+}
