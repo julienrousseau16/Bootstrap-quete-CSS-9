@@ -1,21 +1,21 @@
 
-.col {
-    height: 80px;
+.row > div {
+    padding-top: 8.34%;
     border: 1px solid white;
 }
 
- #dg {
+ .dg{
     background-color: rgb(56, 55, 55);
 }
 
-#bl {
+.bl {
     background-color: black;
 }
 
-#ye {
+.ye {
     background-color: rgb(255, 217, 0);
 }
 
-#or {
+.or {
     background-color: rgb(255, 123, 0);
 }
