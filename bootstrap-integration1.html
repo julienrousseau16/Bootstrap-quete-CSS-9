@@ -11,31 +11,66 @@
 
 <body>
     <style>
-        #navlist {height: 100%;}
-        #navlist li {height: 100%;}
-        #navlist li:hover{background-color: white;}
-        #navlist li a:hover{color: #212529;}
+        #navlist {
+            height: 100%;
+        }
 
+        #navlist li {
+            height: 100%;
+        }
+
+        #navlist li:hover {
+            background-color: white;
+        }
+
+        #navlist li a:hover {
+            color: #212529;
+        }
+        #caroucaption {
+            color: #212529;
+            }
     </style>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">FindThePrecious.com</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" id="navlist">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Fellows<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Contact us</a>
-          </ul>
+            <ul class="navbar-nav" id="navlist">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Fellows<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact us</a>
+            </ul>
         </div>
-      </nav>
-    
-    
-    
+    </nav>
+
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="http://via.placeholder.com/800x250" class="d-block w-100" alt="image-fictive">
+                    <div class="carousel-caption d-none d-md-block" id="caroucaption">
+                        <h5>Dangerous fellowship tries to destroy the ring</h5>
+                        <p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
