@@ -30,14 +30,17 @@
         .carousel-caption {
             color: #212529;
         }
+
         h2 {
             text-align: center;
             margin: 40px 0;
             font-size: 175%;
         }
+
         #spanfellows {
             font-size: 75%;
         }
+
         .details {
             position: absolute;
             background-color: dimgray;
@@ -47,7 +50,10 @@
             display: inline-block;
             margin: 0 auto;
         }
-
+        li {
+            color: #fff;
+            list-style: none;
+        }
     </style>
 
     <header>
@@ -110,7 +116,7 @@
         </div>
     </header>
 
-    <section id="cards">
+    <section id="cards-section" style="padding-bottom: 80px; border-bottom: 2px solid black;">
         <h2>Fellows wanted dead <span id="spanfellows">(or alive if you want to eat them later)</span></h2>
         <div class="container-fluid">
             <div class="row">
@@ -150,6 +156,60 @@
 
     </section>
 
+    <section id='form-section' style="padding: 60px 0;">
+        <h2 style="display: inline;">Contact us</h2>
+        <div class="container-fluid" style="margin-top: 30px;">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" value="@">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="postalAddress" value="Address">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>I have seen one of them</option>
+                                <option>Sérieux... tu vérifies si ça fonctionne ???</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <button type="submit" class="btn btn-primary ml-auto">Send !</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid" style="background-color: #212529; padding: 40px;">
+            <div class="row">
+                <div class="col-lg-3 col-md-10">
+                    <ul>
+                        <li><a>About us</a></li>
+                        <li><a>Fellows</a></li>
+                        <li><a>Join our army</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-10">
+                    <ul>
+                        <li><a>FAQ</a></li>
+                        <li><a>Reward conditions</a></li>
+                        <li><a>Legal Mentions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-10">
+                    <ul>
+                        <li><a>Sauron4Ever.com</a></li>
+                        <li><a>Follow him also on Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
